@@ -1,8 +1,9 @@
-package com.currencycheck.util;
+package com.currencycheck.service;
 
 import com.currencycheck.model.Currency;
+import com.currencycheck.util.JsonParser;
+import com.currencycheck.util.CurrencyCode;
 import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
@@ -11,7 +12,10 @@ import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
 
-public class AlphaAdvantageService {
+/**
+ * TODO: Document class
+ */
+public class CurrencyCheckService implements CurrencyCheckServiceI {
 
     private static final String RAW_HTTP_LINK;
     private static final HttpClient HTTP_CLIENT;
@@ -23,6 +27,13 @@ public class AlphaAdvantageService {
         API_KEY = "1ZX2L8AG0WMCZM0L";
     }
 
+    /**
+     * TODO: Document method
+     * @param function
+     * @param fromCurrency
+     * @param toCurrency
+     * @return
+     */
     private static String buildHttpLink(String function, String fromCurrency, String toCurrency){
         return RAW_HTTP_LINK
                 .replaceFirst("#", function)
@@ -31,16 +42,31 @@ public class AlphaAdvantageService {
                 .replaceFirst("#", API_KEY);
     }
 
+    /**
+     * TODO: Document method
+     * @param function
+     * @param fromCurrency
+     * @param toCurrency
+     * @return
+     * @throws IOException
+     */
     private static Currency doRequest(String function, CurrencyCode fromCurrency, CurrencyCode toCurrency) throws IOException{
         HttpGet httpRequest = new HttpGet(buildHttpLink(function, fromCurrency.getCurrencyCode(), toCurrency.getCurrencyCode()));
         HttpResponse httpResponse = HTTP_CLIENT.execute(httpRequest);
 
-        JsonObject json = new JsonParser().parse(EntityUtils.toString(httpResponse.getEntity())).getAsJsonObject();
+        JsonObject json = new com.google.gson.JsonParser().parse(EntityUtils.toString(httpResponse.getEntity())).getAsJsonObject();
 
-        return AlphaAdvantageJsonParser.parseCurrencyExchangeRate(json);
+        return JsonParser.parseCurrencyExchangeRate(json);
     }
 
-    public static Currency getCurrencyExchangeRate(CurrencyCode fromCurrency, CurrencyCode toCurrency) throws IOException {
+    /**
+     * TODO: Document method
+     * @param fromCurrency
+     * @param toCurrency
+     * @return
+     * @throws IOException
+     */
+    public Currency getCurrencyExchangeRate(CurrencyCode fromCurrency, CurrencyCode toCurrency) throws IOException {
         return doRequest("CURRENCY_EXCHANGE_RATE", fromCurrency, toCurrency);
     }
 }

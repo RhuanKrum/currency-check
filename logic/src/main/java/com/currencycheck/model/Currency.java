@@ -1,9 +1,10 @@
 package com.currencycheck.model;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.Date;
 
+/**
+ * TODO: Document class
+ */
 public class Currency {
 
     private String fromCurrencyCode;
