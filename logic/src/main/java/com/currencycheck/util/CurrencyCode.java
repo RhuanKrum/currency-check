@@ -1,5 +1,8 @@
 package com.currencycheck.util;
 
+/**
+ * TODO: Document class
+ */
 public enum CurrencyCode {
     CAD ("CAD"),
     BRL ("BRL");

@@ -1,6 +1,7 @@
 package com.currencycheck.util;
 
 import com.currencycheck.model.Currency;
+import com.currencycheck.service.CurrencyCheckService;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
@@ -11,7 +12,10 @@ import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class AlphaAdvantageServiceTest {
+/**
+ * TODO: Document class
+ */
+public class CurrencyCheckServiceTest {
 
     @Test
     public void testServiceDemoCall() throws IOException{
@@ -25,14 +29,14 @@ public class AlphaAdvantageServiceTest {
 
     @Test
     public void testServiceRealCall() {
-        assertDoesNotThrow(() -> AlphaAdvantageService.getCurrencyExchangeRate(CurrencyCode.CAD, CurrencyCode.BRL), "Service failed for real call. The request failed.");
+        assertDoesNotThrow(() -> new CurrencyCheckService().getCurrencyExchangeRate(CurrencyCode.CAD, CurrencyCode.BRL), "Service failed for real call. The request failed.");
     }
 
     @Test
     public void testServiceRealCallResult() {
         Currency currency = null;
         try {
-            currency = AlphaAdvantageService.getCurrencyExchangeRate(CurrencyCode.CAD, CurrencyCode.BRL);
+            currency = new CurrencyCheckService().getCurrencyExchangeRate(CurrencyCode.CAD, CurrencyCode.BRL);
         } catch (IOException e) {
             fail("Service failed for real call. The request failed.");
         }
