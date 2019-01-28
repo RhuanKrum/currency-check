@@ -3,6 +3,7 @@ package com.currencycheck.service;
 import com.currencycheck.model.Currency;
 import com.currencycheck.util.JsonParser;
 import com.currencycheck.util.CurrencyCode;
+import com.currencycheck.util.MessageFormatter;
 import com.google.gson.JsonObject;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
@@ -22,7 +23,7 @@ public class CurrencyCheckService implements CurrencyCheckServiceI {
     private static final String API_KEY;
 
     static{
-        RAW_HTTP_LINK = "https://www.alphavantage.co/query?function=#&from_currency=#&to_currency=#&apikey=#";
+        RAW_HTTP_LINK = "https://www.alphavantage.co/query?function={}&from_currency={}&to_currency={}&apikey={}";
         HTTP_CLIENT = HttpClientBuilder.create().build();
         API_KEY = "1ZX2L8AG0WMCZM0L";
     }
@@ -35,11 +36,7 @@ public class CurrencyCheckService implements CurrencyCheckServiceI {
      * @return
      */
     private static String buildHttpLink(String function, String fromCurrency, String toCurrency){
-        return RAW_HTTP_LINK
-                .replaceFirst("#", function)
-                .replaceFirst("#", fromCurrency)
-                .replaceFirst("#", toCurrency)
-                .replaceFirst("#", API_KEY);
+        return MessageFormatter.format(RAW_HTTP_LINK, function, fromCurrency, toCurrency, API_KEY);
     }
 
     /**
@@ -51,7 +48,7 @@ public class CurrencyCheckService implements CurrencyCheckServiceI {
      * @throws IOException
      */
     private static Currency doRequest(String function, CurrencyCode fromCurrency, CurrencyCode toCurrency) throws IOException{
-        HttpGet httpRequest = new HttpGet(buildHttpLink(function, fromCurrency.getCurrencyCode(), toCurrency.getCurrencyCode()));
+        HttpGet httpRequest = new HttpGet(buildHttpLink(function, fromCurrency.getValue(), toCurrency.getValue()));
         HttpResponse httpResponse = HTTP_CLIENT.execute(httpRequest);
 
         JsonObject json = new com.google.gson.JsonParser().parse(EntityUtils.toString(httpResponse.getEntity())).getAsJsonObject();
