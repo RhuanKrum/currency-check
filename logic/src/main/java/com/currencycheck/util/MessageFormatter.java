@@ -9,7 +9,7 @@ import java.util.Arrays;
  */
 public final class MessageFormatter {
 
-    private static final String REPLACEABLE_SYMBOL = "\\{\\}";
+    private static final String REPLACEABLE_SYMBOL = "[{][}]";
 
     /**
      * TODO: Document method
@@ -22,7 +22,7 @@ public final class MessageFormatter {
 
         String formattedMessage = message;
         for(Object value : values){
-            formattedMessage.replaceFirst(REPLACEABLE_SYMBOL, value.toString());
+            formattedMessage = formattedMessage.replaceFirst(REPLACEABLE_SYMBOL, value.toString());
         }
 
         return formattedMessage;
