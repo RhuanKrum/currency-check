@@ -1,10 +1,11 @@
 package com.currencycheck.service;
 
 import com.currencycheck.model.Currency;
-import com.currencycheck.util.JsonParser;
+import com.currencycheck.util.CurrencyCheckJsonParser;
 import com.currencycheck.util.CurrencyCode;
 import com.currencycheck.util.MessageFormatter;
 import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
@@ -51,9 +52,9 @@ public class CurrencyCheckService implements CurrencyCheckServiceI {
         HttpGet httpRequest = new HttpGet(buildHttpLink(function, fromCurrency.getValue(), toCurrency.getValue()));
         HttpResponse httpResponse = HTTP_CLIENT.execute(httpRequest);
 
-        JsonObject json = new com.google.gson.JsonParser().parse(EntityUtils.toString(httpResponse.getEntity())).getAsJsonObject();
+        JsonObject json = new JsonParser().parse(EntityUtils.toString(httpResponse.getEntity())).getAsJsonObject();
 
-        return JsonParser.parseCurrencyExchangeRate(json);
+        return CurrencyCheckJsonParser.parseCurrencyExchangeRate(json);
     }
 
     /**
