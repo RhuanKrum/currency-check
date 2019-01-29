@@ -34,6 +34,7 @@ public final class MessageFormatter {
      * @param values
      */
     private static final void validateMessageAndValues(String message, Object... values){
+        //TODO: Review exception messages
         if(message == null)
             throw new MessageFormatException("Message is null");
         if(values == null)
