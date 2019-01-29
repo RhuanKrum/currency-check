@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
 /**
  * TODO: Document class
  */
-public final class JsonParser {
+public final class CurrencyCheckJsonParser {
 
     /**
      * Expects the following JSON structure:

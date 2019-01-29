@@ -1,8 +1,6 @@
 package com.currencycheck.util;
 
-/**
- * TODO: Document class
- */
+// TODO: Use AlphaAdvantage Currency CSV file: https://www.alphavantage.co/physical_currency_list/
 public enum CurrencyCode {
     CAD ("CAD"),
     BRL ("BRL");
@@ -13,7 +11,7 @@ public enum CurrencyCode {
         this.currencyCode = currencyCode;
     }
 
-    public String getCurrencyCode(){
+    public String getValue(){
         return this.currencyCode;
     }
 }
