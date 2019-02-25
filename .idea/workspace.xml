@@ -4,11 +4,12 @@
     <list default="true" id="d6b50088-996f-4bb9-afa3-584377cd45f4" name="Default Changelist" comment="Fix MessageFormatter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/updater/CurrencyCheckUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/CurrencyCheckUpdater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/model/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/model/Currency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/service/CurrencyCheckService.java" beforeDir="false" afterPath="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/service/CurrencyCheckService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/CurrencyCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/CurrencyCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/CurrencyCheckJsonParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/MessageFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/MessageFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/src/test/java/com/currencycheck/service/CurrencyCheckServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/logic/src/test/java/com/currencycheck/service/CurrencyCheckServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/MessageFormatterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/MessageFormatterTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,74 +26,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/CurrencyCheckJsonParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/currencycheck/service/CurrencyCheckServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/CurrencyCheckJsonParserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/CurrencyFormatterTest.java">
+        <entry file="file://$PROJECT_DIR$/gui/src/main/java/com/currencycheck/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="338">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1443#1444#0" expanded="true" />
+                <element signature="e#1495#1496#0" expanded="true" />
+                <element signature="e#1954#1955#0" expanded="true" />
+                <element signature="e#2006#2007#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/CurrencyFormatter.java">
+        <entry file="file://$PROJECT_DIR$/gui/src/main/java/com/currencycheck/CurrencyBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/service/CurrencyCheckService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="303">
+              <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -138,24 +92,33 @@
         <option value="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/factory/CurrencyCheckFactory.java" />
         <option value="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/service/CurrencyCheckServiceI.java" />
         <option value="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/JsonParser.java" />
-        <option value="$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/MessageFormatterTest.java" />
         <option value="$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/CurrencyCheckServiceTest.java" />
         <option value="$PROJECT_DIR$/gui/pom.xml" />
         <option value="$PROJECT_DIR$/logic/src/main/java/module-info.java" />
         <option value="$PROJECT_DIR$/gui/src/main/java/module-info.java" />
         <option value="$PROJECT_DIR$/logic/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/logic/src/test/java/com/currencycheck/service/CurrencyCheckServiceTest.java" />
         <option value="$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/Test.java" />
-        <option value="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/model/Currency.java" />
-        <option value="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/updater/CurrencyCheckUpdater.java" />
-        <option value="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/service/CurrencyCheckService.java" />
-        <option value="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/MessageFormatter.java" />
         <option value="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/CurrencyFormatter.java" />
-        <option value="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/CurrencyCode.java" />
-        <option value="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/MainApp.java" />
         <option value="$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/CurrencyCheckJsonParserTest.java" />
         <option value="$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/CurrencyFormatterTest.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/main/MainApp.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/MainAppTest.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/ghjg.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/ghjgjh.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/ghjg2.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/ghjg3.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/ghjg4.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/updater/CurrencyCheckUpdater.java" />
+        <option value="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/CurrencyCode.java" />
+        <option value="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/service/CurrencyCheckService.java" />
+        <option value="$PROJECT_DIR$/logic/src/test/java/com/currencycheck/service/CurrencyCheckServiceTest.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/CurrencyCheckUpdater.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/CurrencyBox.java" />
+        <option value="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/MessageFormatter.java" />
+        <option value="$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/MessageFormatterTest.java" />
+        <option value="$PROJECT_DIR$/logic/src/main/java/com/currencycheck/model/Currency.java" />
+        <option value="$PROJECT_DIR$/gui/src/main/java/com/currencycheck/MainApp.java" />
       </list>
     </option>
   </component>
@@ -167,9 +130,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="844" />
+    <option name="x" value="-7" />
     <option name="width" value="1294" />
-    <option name="height" value="1040" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -179,8 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,16 +187,6 @@
             <path>
               <item name="currency-check" type="b2602c69:ProjectViewProjectNode" />
               <item name="currency-check" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="currencycheck" type="462c0819:PsiDirectoryNode" />
-              <item name="updater" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="currency-check" type="b2602c69:ProjectViewProjectNode" />
-              <item name="currency-check" type="462c0819:PsiDirectoryNode" />
               <item name="logic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -267,26 +218,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="currencycheck" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="currency-check" type="b2602c69:ProjectViewProjectNode" />
-              <item name="currency-check" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="currencycheck" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="currency-check" type="b2602c69:ProjectViewProjectNode" />
-              <item name="currency-check" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="currencycheck" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="currency-check" type="b2602c69:ProjectViewProjectNode" />
@@ -350,26 +281,18 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="currencycheck" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="currency-check" type="b2602c69:ProjectViewProjectNode" />
-              <item name="currency-check" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="currencycheck" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../currency-check-OLD" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -379,6 +302,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.currencycheck.service" />
       <recent name="com.currencycheck.util" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.currencycheck" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -401,54 +327,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.currencycheck.util.Test" />
-      <module name="logic" />
+    <configuration name="MainAppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.currencycheck.MainAppTest" />
+      <module name="gui" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrencyCheckServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="logic" />
-      <option name="PACKAGE_NAME" value="com.currencycheck.service" />
-      <option name="MAIN_CLASS_NAME" value="com.currencycheck.service.CurrencyCheckServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="ghjg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.currencycheck.ghjg" />
+      <module name="gui" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrencyCheckServiceTest.testServiceRealCallResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="logic" />
-      <option name="PACKAGE_NAME" value="com.currencycheck.service" />
-      <option name="MAIN_CLASS_NAME" value="com.currencycheck.service.CurrencyCheckServiceTest" />
-      <option name="METHOD_NAME" value="testServiceRealCallResult" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="ghjg2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.currencycheck.ghjg2" />
+      <module name="gui" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageFormatterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ghjg4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.currencycheck.ghjg4" />
+      <module name="gui" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageFormatterTest.formatOnDollarParameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="logic" />
       <option name="PACKAGE_NAME" value="com.currencycheck.util" />
       <option name="MAIN_CLASS_NAME" value="com.currencycheck.util.MessageFormatterTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="formatOnDollarParameter" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.MainApp" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="JUnit.CurrencyCheckServiceTest" />
-      <item itemvalue="JUnit.CurrencyCheckServiceTest.testServiceRealCallResult" />
-      <item itemvalue="JUnit.MessageFormatterTest" />
+      <item itemvalue="Application.MainAppTest" />
+      <item itemvalue="Application.ghjg" />
+      <item itemvalue="Application.ghjg4" />
+      <item itemvalue="Application.ghjg2" />
+      <item itemvalue="JUnit.MessageFormatterTest.formatOnDollarParameter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.CurrencyCheckServiceTest.testServiceRealCallResult" />
-        <item itemvalue="JUnit.CurrencyCheckServiceTest" />
-        <item itemvalue="JUnit.MessageFormatterTest" />
+        <item itemvalue="JUnit.MessageFormatterTest.formatOnDollarParameter" />
+        <item itemvalue="Application.ghjg" />
+        <item itemvalue="Application.ghjg2" />
+        <item itemvalue="Application.ghjg4" />
+        <item itemvalue="Application.MainAppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -474,21 +405,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MessageFormatterTest_formatOnMoreValuesTest - 2019.01.27 at 18h 58m 10s.xml">
-      <configuration name="MessageFormatterTest.formatOnMoreValuesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MessageFormatterTest_formatOnTwoParameters - 2019.01.27 at 18h 58m 22s.xml">
-      <configuration name="MessageFormatterTest.formatOnTwoParameters" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MessageFormatterTest - 2019.01.27 at 19h 06m 02s.xml">
-      <configuration name="MessageFormatterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MessageFormatterTest - 2019.01.27 at 19h 14m 39s.xml">
-      <configuration name="MessageFormatterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CurrencyCheckServiceTest - 2019.01.27 at 19h 15m 42s.xml">
-      <configuration name="CurrencyCheckServiceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CurrencyCheckServiceTest_testServiceRealCallResult - 2019.01.27 at 19h 18m 18s.xml">
       <configuration name="CurrencyCheckServiceTest.testServiceRealCallResult" configurationId="JUnit" />
     </history-entry>
@@ -504,6 +420,21 @@
     <history-entry file="CurrencyCheckServiceTest_testServiceRealCallResult - 2019.01.27 at 20h 33m 20s.xml">
       <configuration name="CurrencyCheckServiceTest.testServiceRealCallResult" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MessageFormatterTest_formatOnDollarParameter - 2019.02.24 at 19h 05m 43s.xml">
+      <configuration name="MessageFormatterTest.formatOnDollarParameter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageFormatterTest_formatOnDollarParameter - 2019.02.24 at 19h 06m 27s.xml">
+      <configuration name="MessageFormatterTest.formatOnDollarParameter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageFormatterTest_formatOnDollarParameter - 2019.02.24 at 19h 07m 20s.xml">
+      <configuration name="MessageFormatterTest.formatOnDollarParameter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageFormatterTest_formatOnDollarParameter - 2019.02.24 at 19h 07m 36s.xml">
+      <configuration name="MessageFormatterTest.formatOnDollarParameter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MessageFormatterTest_formatOnDollarParameter - 2019.02.24 at 19h 07m 57s.xml">
+      <configuration name="MessageFormatterTest.formatOnDollarParameter" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,30 +449,30 @@
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14507154" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1581876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49324325" weight="0.3288889" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49284577" weight="0.32777777" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49880764" visible="true" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4944356" weight="0.3311111" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49880764" weight="0.40222222" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49880764" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.4910859" visible="true" weight="0.3311111" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49841017" weight="0.40111113" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49960256" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49801272" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5011924" side_tool="true" visible="true" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5089141" side_tool="true" weight="0.33445567" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -558,32 +489,15 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/MessageFormatter.java</url>
-          <line>22</line>
+          <url>file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/model/Currency.java</url>
+          <line>67</line>
           <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/bunda" />
-    <entry file="file://$PROJECT_DIR$/logic/src/main/resources/alpha_advantage_service_api_key.txt" />
-    <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/currencycheck/bunda" />
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/regex/Matcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="698" column="15" selection-start-line="698" selection-start-column="15" selection-end-line="698" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/time/LocalDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6630">
-          <caret line="489" column="32" selection-start-line="489" selection-start-column="32" selection-end-line="489" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -599,19 +513,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/AlphaAdvantageJsonParserTest.java" />
-    <entry file="file://$PROJECT_DIR$/logic/logic.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/main/java/module-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/logic.iml" />
     <entry file="file://$PROJECT_DIR$/gui/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -621,13 +523,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -689,75 +584,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/com/currencycheck/updater/CurrencyCheckUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="120" selection-start-line="25" selection-start-column="120" selection-end-line="25" selection-end-column="120" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/MessageFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/CurrencyCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/service/CurrencyCheckServiceI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/model/Currency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1736#1737#0" expanded="true" />
-            <element signature="e#1838#1839#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/factory/CurrencyCheckFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/Test.java" />
     <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/exception/MessageFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -765,60 +592,171 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/main/java/com/currencycheck/MainApp.java">
+    <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/CurrencyCheckJsonParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/MessageFormatterTest.java">
+    <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/CurrencyFormatterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/CurrencyCheckJsonParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="68" />
+        <state relative-caret-position="523">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/service/CurrencyCheckService.java">
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/factory/CurrencyCheckFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/11/javafx-base-11-sources.jar!/javafx/event/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11/javafx-graphics-11-sources.jar!/javafx/scene/layout/Region.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="1231" column="24" selection-start-line="1231" selection-start-column="24" selection-end-line="1231" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/com/currencycheck/MainAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/com/currencycheck/ghjgjh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11/javafx-graphics-11-sources.jar!/javafx/scene/layout/VBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="143" column="13" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11/javafx-graphics-11-sources.jar!/javafx/scene/layout/HBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="154" column="13" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11/javafx-graphics-11-sources.jar!/javafx/scene/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="397" column="22" selection-start-line="397" selection-start-column="22" selection-end-line="397" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11/javafx-graphics-11-sources.jar!/javafx/scene/Parent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="78" column="39" lean-forward="true" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11/javafx-graphics-11-sources.jar!/javafx/scene/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11/javafx-graphics-11-sources.jar!/javafx/stage/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="278" column="16" selection-start-line="278" selection-start-column="16" selection-end-line="278" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/com/currencycheck/ghjg4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/com/currencycheck/ghjg3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/com/currencycheck/ghjg2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/com/currencycheck/ghjg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/currencycheck/service/CurrencyCheckServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/CurrencyCheckJsonParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="355">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -835,12 +773,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/CurrencyFormatterTest.java">
+    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/service/CurrencyCheckService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="183">
+          <caret line="51" column="100" selection-start-line="51" selection-start-column="100" selection-end-line="51" selection-end-column="100" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/service/CurrencyCheckServiceI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/CurrencyCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="833" selection-start-line="833" selection-end-line="833" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="2124" column="18" selection-start-line="2124" selection-start-column="18" selection-end-line="2124" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.4.0-RC2/junit-platform-commons-1.4.0-RC2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="304" selection-start-line="304" selection-end-line="304" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/currencycheck/util/MessageFormatterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/com/currencycheck/CurrencyCheckUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/model/Currency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="55" column="77" selection-start-line="55" selection-start-column="77" selection-end-line="55" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/currencycheck/util/MessageFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/com/currencycheck/CurrencyBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/main/java/com/currencycheck/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#1954#1955#0" expanded="true" />
+            <element signature="e#2006#2007#0" expanded="true" />
           </folding>
         </state>
       </provider>

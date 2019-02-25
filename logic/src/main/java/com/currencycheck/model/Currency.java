@@ -1,6 +1,7 @@
 package com.currencycheck.model;
 
 import com.currencycheck.util.CurrencyFormatter;
+import com.currencycheck.util.MessageFormatter;
 
 import java.time.LocalDateTime;
 
@@ -52,7 +53,7 @@ public class Currency {
     public Double getExchangeRate() { return exchangeRate; }
 
     public String getExchangeRateFormatted() {
-        return CurrencyFormatter.format(toCurrencyCode, exchangeRate);
+        return CurrencyFormatter.format(toCurrencyCode, exchangeRate).replace("$","\\$");
     }
 
     public LocalDateTime getLastRefreshed() {
@@ -64,6 +65,6 @@ public class Currency {
     }
 
     public String toString(){
-        return fromCurrencyCode + " -> " + toCurrencyCode + " - " + getExchangeRateFormatted();
+        return MessageFormatter.format("{} ({}) -> {} ({}) - {}", fromCurrencyName, fromCurrencyCode, toCurrencyName, toCurrencyCode, getExchangeRateFormatted());
     }
 }

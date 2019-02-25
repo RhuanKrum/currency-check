@@ -41,8 +41,8 @@ public class CurrencyCheckServiceTest {
             fail("Service failed for real call. The request failed.");
         }
 
-        assertEquals(CurrencyCode.CAD.getValue(), currency.getFromCurrencyCode(), "Service failed for real call. FromCurrencyCode value is incorrect");
-        assertEquals(CurrencyCode.BRL.getValue(), currency.getToCurrencyCode(), "Service failed for real call. ToCurrencyCode value is incorrect");
+        assertEquals(CurrencyCode.CAD.getCode(), currency.getFromCurrencyCode(), "Service failed for real call. FromCurrencyCode value is incorrect");
+        assertEquals(CurrencyCode.BRL.getCode(), currency.getToCurrencyCode(), "Service failed for real call. ToCurrencyCode value is incorrect");
 
         assertFalse(currency.getFromCurrencyName().isEmpty(), "Service failed for real call. FromCurrencyName value is incorrect");
         assertFalse(currency.getToCurrencyName().isEmpty(), "Service failed for real call. ToCurrencyName value is incorrect");

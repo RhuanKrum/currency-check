@@ -3,8 +3,7 @@ package com.currencycheck.util;
 import com.currencycheck.exception.MessageFormatException;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * TODO: Document class
@@ -59,5 +58,10 @@ public class MessageFormatterTest {
     @Test
     public void formatOnThreeParameters(){
         assertEquals(MessageFormatter.format("Test Three Parameters {} {} {}", "One", "Two", "Three"), "Test Three Parameters One Two Three");
+    }
+
+    @Test
+    public void formatOnDollarParameter(){
+        assertDoesNotThrow(() -> MessageFormatter.format("Test Dollar Parameter {}", "\\$2.00"), "Error");
     }
 }

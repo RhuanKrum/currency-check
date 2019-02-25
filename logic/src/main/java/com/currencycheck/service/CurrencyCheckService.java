@@ -49,7 +49,7 @@ public class CurrencyCheckService implements CurrencyCheckServiceI {
      * @throws IOException
      */
     private static Currency doRequest(String function, CurrencyCode fromCurrency, CurrencyCode toCurrency) throws IOException{
-        HttpGet httpRequest = new HttpGet(buildHttpLink(function, fromCurrency.getValue(), toCurrency.getValue()));
+        HttpGet httpRequest = new HttpGet(buildHttpLink(function, fromCurrency.getCode(), toCurrency.getCode()));
         HttpResponse httpResponse = HTTP_CLIENT.execute(httpRequest);
 
         JsonObject json = new JsonParser().parse(EntityUtils.toString(httpResponse.getEntity())).getAsJsonObject();
