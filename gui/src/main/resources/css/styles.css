@@ -1,0 +1,72 @@
+.main-menu {
+    -fx-pref-width: 465;
+    -fx-background-color: #3B3533;
+    -fx-font-color: white;
+    -fx-alignment: center;
+    -fx-padding: 5 5 5 5;
+}
+
+.main-menu .button {
+    -fx-pref-width: 20;
+    -fx-pref-height: 18;
+    -fx-background-color: red;
+    -fx-font-size: 8;
+    -fx-alignment: center;
+}
+
+.main-menu .label {
+    -fx-text-fill: #EEE7E5;
+    -fx-padding: 0 0 0 10;
+}
+
+.conversion-menu {
+    -fx-pref-width: 465;
+    -fx-border-color: #AEA4A2;
+    -fx-border-style: solid none none none;
+    -fx-background-color: #CFC4C0;
+    -fx-padding: 5 5 5 5;
+    -fx-alignment: center;
+}
+
+.conversion-menu .combo-box {
+    -fx-background-color: #C0B6B3;
+    -fx-border-width: 1;
+    -fx-border-color: #AEA4A2;
+    -fx-padding: 0 10 0 10;
+}
+
+.currency-box {
+    -fx-pref-width: 465;
+    -fx-alignment: center;
+    -fx-border-color: #AEA4A2;
+    -fx-border-style: solid none none none;
+    -fx-padding: 5 5 5 10;
+    -fx-background-color: #CFC4C0;
+}
+
+.currency-box .button, .conversion-menu .button {
+    -fx-background-color: #C0B6B3;
+    -fx-font-size: 16;
+    -fx-padding: 0 10 0 10;
+    -fx-border-width: 1;
+    -fx-pref-width: 40;
+    -fx-border-color: #AEA4A2;
+}
+
+.currency-box .to-label {
+    -fx-pref-width: 15;
+}
+
+.currency-box .equals-label {
+    -fx-pref-width: 15;
+}
+
+.currency-box .from-currency-label, .currency-box .to-currency-label  {
+    -fx-pref-width: 160;
+    -fx-alignment: center;
+}
+
+.currency-box .formatted-value-label {
+    -fx-pref-width: 65;
+    -fx-alignment: center;
+}

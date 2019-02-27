@@ -20,6 +20,7 @@ public enum CurrencyCode {
     public String getCode(){
         return this.currencyCode;
     }
+
     public String getName(){
         return this.currencyName;
     }
